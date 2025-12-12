@@ -52,7 +52,7 @@ func main() {
 	fmt.Println("=== Random Forest Demo with Train/Test Split ===")
 
 	// Step 1. Generate dataset
-	X, y := generateBinaryData(1000)
+	X, y := generateBinaryData(3000)
 	fmt.Printf("Generated %d samples with 2 features each.\n", len(X))
 	fmt.Println("First 5 samples:")
 	for i := 0; i < 5; i++ {
